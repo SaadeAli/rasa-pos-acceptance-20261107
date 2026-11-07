@@ -1,7 +1,5 @@
-# RASA POS Windows and Android updates
+# RASA POS acceptance staging ONLY
 
-Download the current installer from [Releases](https://github.com/SaadeAli/rasa-pos-acceptance-20261107/releases/latest).
+Disposable QA builds for the Smart Update Manager V2 acceptance campaign. This is not the production update channel. Do not install on customer machines.
 
-This repository contains public installers and digitally signed update information only. Application source, signing keys, licence records, business databases and backups remain private.
-
-RASA POS checks for updates inside the app. Customers do not need a GitHub account. Installation preserves the existing application data location and saves a local backup before closing.
+Clients compiled for production do not trust this repository or its dedicated staging Ed25519 key. Only isolated test environments are used. No business data or private signing material is published here.
